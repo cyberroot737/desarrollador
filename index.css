@@ -166,12 +166,226 @@ body
    width: 100% !important;
 }
 }
+#wb_LayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid3
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid3 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2
+{
+   float: left;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 50%;
+   text-align: center;
+}
+#LayoutGrid3 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 50%;
+   text-align: center;
+}
+#LayoutGrid3:before,
+#LayoutGrid3:after,
+#LayoutGrid3 .row:before,
+#LayoutGrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid3:after,
+#LayoutGrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 30px 30px 30px 30px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2 div
+{
+   text-align: center;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 30px 30px 30px 30px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text3 div
+{
+   text-align: center;
+}
+#wb_Image1
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   display: inline-block;
+   width: 200px;
+   height: 200px;
+   vertical-align: top;
+}
+#wb_Image2
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   padding: 0;
+   display: inline-block;
+   width: 195px;
+   height: 195px;
+   vertical-align: top;
+}
+#Line1
+{
+   border-color: #A0A0A0;
+   border-style: solid;
+   border-bottom-width: 10px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line2
+{
+   border-color: #A0A0A0;
+   border-style: solid;
+   border-bottom-width: 10px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line3
+{
+   border-color: #A0A0A0;
+   border-style: solid;
+   border-bottom-width: 10px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line4
+{
+   border-color: #A0A0A0;
+   border-style: solid;
+   border-bottom-width: 10px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
 #Html1
 {
    display: inline-block;
    width: 455px;
    height: 273px;
-   z-index: 2;
+   z-index: 7;
+}
+#wb_Image1
+{
+   display: inline-block;
+   width: 200px;
+   height: 200px;
+   z-index: 5;
+}
+#wb_Image2
+{
+   display: inline-block;
+   width: 195px;
+   height: 195px;
+   z-index: 10;
+}
+#wb_uid2
+{
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
+}
+#Line4
+{
+   display: block;
+   width: 100%;
+   z-index: 6;
+}
+#wb_uid1
+{
+   color: #000000;
+   font-family: Arial;
+   font-size: 21px;
 }
 #wb_uid0
 {
@@ -179,10 +393,28 @@ body
    font-family: Arial;
    font-size: 24px;
 }
+#Line1
+{
+   display: block;
+   width: 100%;
+   z-index: 8;
+}
+#Line3
+{
+   display: block;
+   width: 100%;
+   z-index: 1;
+}
+#Line2
+{
+   display: block;
+   width: 100%;
+   z-index: 3;
+}
 #Html2
 {
    display: inline-block;
    width: 455px;
    height: 280px;
-   z-index: 1;
+   z-index: 2;
 }
