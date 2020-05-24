@@ -25,10 +25,10 @@ body
 #Html1
 {
    position: absolute;
-   left: 120px;
-   top: 260px;
-   width: 750px;
-   height: 430px;
+   left: 130px;
+   top: 210px;
+   width: 510px;
+   height: 210px;
    z-index: 0;
 }
 #wb_uid0
@@ -45,4 +45,13 @@ body
    width: 250px;
    height: 27px;
    z-index: 1;
+}
+#Html2
+{
+   position: absolute;
+   left: 230px;
+   top: 460px;
+   width: 590px;
+   height: 280px;
+   z-index: 2;
 }
