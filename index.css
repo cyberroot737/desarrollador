@@ -38,7 +38,9 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_LayoutGrid2_bkgrnd.png);
+   background-repeat: repeat;
+   background-position: left top;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
    margin: 0;
@@ -106,7 +108,9 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_LayoutGrid1_bkgrnd.png);
+   background-repeat: repeat;
+   background-position: left top;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
    margin: 0;
@@ -143,7 +147,7 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    width: 100%;
-   text-align: center;
+   text-align: left;
 }
 #LayoutGrid1:before,
 #LayoutGrid1:after,
@@ -175,7 +179,9 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_LayoutGrid3_bkgrnd.png);
+   background-repeat: repeat;
+   background-position: left top;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
    margin: 0;
@@ -212,7 +218,7 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    width: 100%;
-   text-align: center;
+   text-align: left;
 }
 #LayoutGrid3:before,
 #LayoutGrid3:after,
@@ -420,7 +426,9 @@ body
    font-style: normal;
    text-decoration: none;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_LayoutGrid2_bkgrnd800.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_LayoutGrid2
 {
@@ -459,7 +467,9 @@ body
    font-style: normal;
    text-decoration: none;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_LayoutGrid1_bkgrnd800.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_LayoutGrid1
 {
@@ -498,7 +508,9 @@ body
    font-style: normal;
    text-decoration: none;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_LayoutGrid3_bkgrnd800.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_LayoutGrid3
 {
@@ -679,7 +691,9 @@ body
    font-style: normal;
    text-decoration: none;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_LayoutGrid2_bkgrnd320.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_LayoutGrid2
 {
@@ -718,7 +732,9 @@ body
    font-style: normal;
    text-decoration: none;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_LayoutGrid1_bkgrnd320.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_LayoutGrid1
 {
@@ -757,7 +773,9 @@ body
    font-style: normal;
    text-decoration: none;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/index_LayoutGrid3_bkgrnd320.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_LayoutGrid3
 {
