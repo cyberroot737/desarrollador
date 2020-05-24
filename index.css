@@ -134,7 +134,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 50%;
+   width: 75%;
    text-align: center;
 }
 #LayoutGrid1 > .row > .col-2
@@ -142,7 +142,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 50%;
+   width: 25%;
    text-align: center;
 }
 #LayoutGrid1:before,
@@ -210,7 +210,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 50%;
+   width: 75%;
    text-align: center;
 }
 #LayoutGrid3 > .row > .col-2
@@ -218,7 +218,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 50%;
+   width: 25%;
    text-align: center;
 }
 #LayoutGrid3:before,
@@ -278,8 +278,8 @@ body
    border: 0px solid #000000;
    padding: 0;
    display: inline-block;
-   width: 200px;
-   height: 200px;
+   width: 163px;
+   height: 163px;
    vertical-align: top;
 }
 #wb_Image2
@@ -358,8 +358,8 @@ body
 #wb_Image1
 {
    display: inline-block;
-   width: 200px;
-   height: 200px;
+   width: 163px;
+   height: 163px;
    z-index: 5;
 }
 #wb_Image2
@@ -371,7 +371,7 @@ body
 }
 #wb_uid2
 {
-   color: #000000;
+   color: #00BFFF;
    font-family: Arial;
    font-size: 21px;
 }
@@ -383,15 +383,15 @@ body
 }
 #wb_uid1
 {
-   color: #000000;
+   color: #00BFFF;
    font-family: Arial;
    font-size: 21px;
 }
 #wb_uid0
 {
-   color: #000000;
+   color: #FF0000;
    font-family: Arial;
-   font-size: 24px;
+   font-size: 27px;
 }
 #Line1
 {
@@ -524,7 +524,7 @@ body
 #LayoutGrid1 > .row > .col-1
 {
    display: block;
-   width: 50%;
+   width: 75%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: center;
@@ -532,7 +532,7 @@ body
 #LayoutGrid1 > .row > .col-2
 {
    display: block;
-   width: 50%;
+   width: 25%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: center;
@@ -571,7 +571,7 @@ body
 #LayoutGrid3 > .row > .col-1
 {
    display: block;
-   width: 50%;
+   width: 75%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: center;
@@ -579,7 +579,7 @@ body
 #LayoutGrid3 > .row > .col-2
 {
    display: block;
-   width: 50%;
+   width: 25%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: center;
