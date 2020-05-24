@@ -14,7 +14,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
-   padding: 0;
+   padding: 20px 0px 20px 0px;
    margin: 0;
    text-align: center;
 }
@@ -165,6 +165,13 @@ body
    float: none;
    width: 100% !important;
 }
+}
+#Html1
+{
+   display: inline-block;
+   width: 455px;
+   height: 273px;
+   z-index: 2;
 }
 #wb_uid0
 {
